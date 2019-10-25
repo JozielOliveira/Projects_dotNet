@@ -1,0 +1,14 @@
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/obj/Debug/netstandard2.0/Consumer.Repositories.csprojAssemblyReference.cache
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/obj/Debug/netstandard2.0/Consumer.Repositories.csproj.CoreCompileInputs.cache
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/obj/Debug/netstandard2.0/Consumer.Repositories.AssemblyInfoInputs.cache
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/obj/Debug/netstandard2.0/Consumer.Repositories.AssemblyInfo.cs
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/bin/Debug/netstandard2.0/Consumer.Repositories.dll.config
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/bin/Debug/netstandard2.0/Consumer.Repositories.deps.json
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/bin/Debug/netstandard2.0/Consumer.Repositories.dll
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/bin/Debug/netstandard2.0/Consumer.Repositories.pdb
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/obj/Debug/netstandard2.0/Consumer.Repositories.dll.config
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/obj/Debug/netstandard2.0/Consumer.Repositories.csproj.CopyComplete
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/obj/Debug/netstandard2.0/Consumer.Repositories.dll
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/obj/Debug/netstandard2.0/Consumer.Repositories.pdb
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/bin/Debug/netstandard2.0/Consumer.Domain.dll
+/home/joziel/Documents/Projetos/dotNET/ddd/Consumer.Repositories/bin/Debug/netstandard2.0/Consumer.Domain.pdb

@@ -1,0 +1,37 @@
+@model Consumer.Domain.Entities.Electric
+
+<div class="form-horizontal">
+    <form action="Create" method="Post">
+
+        <div class="form-group">
+            <label>ID</label>
+            <input  class="form-control" type="number" name="id"/>
+        </div>
+
+        <div class="form-group">
+            <label>Data de leitura</label>
+            <input  class="form-control" type="date" name="readDate"/>
+        </div>
+        <div class="form-group">
+            <label>Num. leitura</label>
+            <input  class="form-control" type="number" name="readNum"/>
+        </div>
+        <div class="form-group">
+            <label>Kw Gasto</label>
+            <input  class="form-control" type="number" name="kwConsumed"/>
+        </div>
+        <div class="form-group">
+            <label>Valor a pagar</label>
+            <input  class="form-control" type="number" name="value"/>
+        </div>
+        <div class="form-group">
+            <label>Data de pagamento</label>
+            <input  class="form-control" type="date" name="datePag"/>
+        </div>
+        <div class="form-group">
+            <label>Média de consumo</label>
+            <input  class="form-control" type="number" name="mediaConsumed"/>
+        </div>
+        <input  class="btn btn-primary" type="submit" value="Salvar"/>
+    </form>
+</div>
