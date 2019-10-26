@@ -18,8 +18,13 @@ using consumer;
 
 #line default
 #line hidden
+#line 2 "/home/joziel/Documents/Projetos/dotNET/ddd/consumer/Views/_ViewImports.cshtml"
+using Consumer.Domain.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2e7001ecdeb94f4e3b64243481af166c1889cad7", @"/Views/Electric/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dd8b240b6198285d61e38df87151088993178625", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c004176ad002ccd85b56923eb4c2d57a92f821ed", @"/Views/_ViewImports.cshtml")]
     public class Views_Electric_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Consumer.Domain.Entities.Electric>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("Create"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -51,7 +56,7 @@ using consumer;
             WriteLiteral("\n<div class=\"form-horizontal\">\n    ");
             EndContext();
             BeginContext(76, 1239, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e7001ecdeb94f4e3b64243481af166c1889cad73850", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e7001ecdeb94f4e3b64243481af166c1889cad73998", async() => {
                 BeginContext(112, 1196, true);
                 WriteLiteral(@"
 

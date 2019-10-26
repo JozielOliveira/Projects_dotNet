@@ -18,9 +18,14 @@ using consumer;
 
 #line default
 #line hidden
+#line 2 "/home/joziel/Documents/Projetos/dotNET/ddd/consumer/Views/_ViewImports.cshtml"
+using Consumer.Domain.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dd8b240b6198285d61e38df87151088993178625", @"/Views/_ViewImports.cshtml")]
-    public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Consumer.Domain.Entities.ViewElectric>
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c004176ad002ccd85b56923eb4c2d57a92f821ed", @"/Views/_ViewImports.cshtml")]
+    public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
@@ -55,7 +60,7 @@ Write(ViewData["Title"]);
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Consumer.Domain.Entities.ViewElectric> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<dynamic> Html { get; private set; }
     }
 }
 #pragma warning restore 1591

@@ -35,3 +35,4 @@
 /home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/consumer.csproj.CopyComplete
 /home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/consumer.dll
 /home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/consumer.pdb
+/home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/consumer.csprojAssemblyReference.cache
