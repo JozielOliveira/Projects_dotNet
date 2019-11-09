@@ -1,0 +1,38 @@
+@model IEnumerable<Consumer.Domain.Entities.Immobile>
+
+</br></br>
+<a href="Immobile/Create" class="btn btn-primary">Nova Residência</a>
+</br></br>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Dono</th>
+                <th>Identificador</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>Bairro</th>
+                <th>Numero</th>
+            </tr>
+        </thead>
+
+        @foreach(var item in Model)
+        {
+            <tr >
+                <td>@item.nameOwner</td>
+                <td>@item.identification</td>
+                <td>@item.city</td>
+                <td>@item.state</td>
+                <td>@item.neighborhood</td>
+                <td>@item.number</td>
+                <td><a class="btn btn-success" 
+                    href="Immobile/Details/@item.id">Ver</a>
+                    <a class="btn btn-primary" 
+                    href="Immobile/Edit/@item.id">Editar</a>
+                    <a class="btn btn-danger"
+                    href="Immobile/Delete/@item.id">Deletar</a> </td>
+            </tr>
+        }
+    </table>
+</div>

@@ -24,7 +24,7 @@ namespace Consumer.Repositories
 
         public List<Electric> GetAll()
         {
-            return context.electrics.ToList();
+            return context.electrics.Include(x => x.residence).ToList();
         }
 
         public Electric GetMax()

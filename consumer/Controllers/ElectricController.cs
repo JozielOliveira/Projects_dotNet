@@ -7,44 +7,55 @@ namespace consumer.Controllers
 
     public class ElectricController : Controller
     {
-        private readonly IElectricRepository electric;
+        private readonly IElectricRepository context;
+        private readonly IImmobileRepository contextImmobile;
     
-        public ElectricController(IElectricRepository electricRepository) {
-            electric = electricRepository;
+        public ElectricController(IElectricRepository electricRepository, IImmobileRepository immobile) {
+            context = electricRepository;
+            contextImmobile = immobile;
         }
         public IActionResult Index()
         {
             ViewElectric viewElectric = new ViewElectric();
-            viewElectric.electrics = electric.GetAll();
-            viewElectric.maxConsumed = electric.GetMax();
-            viewElectric.minConsumed = electric.GetMin();
+            viewElectric.electrics = context.GetAll();
+            viewElectric.maxConsumed = context.GetMax();
+            viewElectric.minConsumed = context.GetMin();
 
             return View(viewElectric);
         }
 
-        public IActionResult Create() => View();
+        public IActionResult Create() {
+            ViewBag.residences = contextImmobile.GetAll();
+            return View();
+        }
 
         [HttpPost]
-        public RedirectToActionResult Create(Electric person)
-        {            
-            electric.Create(person);
+        public RedirectToActionResult Create(Electric electric)
+        {
+            electric.residence = contextImmobile.GetByID(electric.residence.id);
+            context.Create(electric);
             return RedirectToAction("Index");
         }
 
-        public IActionResult Edit(int id) => View(electric.GetByID(id));
+        public IActionResult Edit(int id)
+        {
+            ViewBag.residences = contextImmobile.GetAll();
+            return View(context.GetByID(id));
+        }
 
         [HttpPost]
-        public RedirectToActionResult Edit(int id, Electric person)
-        {            
-            electric.Update(person);
+        public RedirectToActionResult Edit(int id, Electric electric)
+        {      
+            electric.residence = contextImmobile.GetByID(electric.residence.id);
+            context.Update(electric);
             return RedirectToAction("Index");
         }
 
-        public IActionResult Details(int id) => View(electric.GetByID(id));
+        public IActionResult Details(int id) => View(context.GetByID(id));
 
         public RedirectToActionResult Delete(int id)
         {            
-            electric.Delete(id);
+            context.Delete(id);
             return RedirectToAction("Index");
         }
     }

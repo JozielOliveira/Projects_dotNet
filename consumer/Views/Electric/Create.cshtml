@@ -32,6 +32,16 @@
             <label>Média de consumo</label>
             <input  class="form-control" type="number" name="mediaConsumed"/>
         </div>
+        <div class="form-group">
+            <label>Residência</label>
+            <select  class="form-control" name="residence.id">
+                <option value="" disabled selected > Selecione a Residência </option>
+                @foreach(var item in ViewBag.residences)
+                {
+                    <option value="@item.id" > @item.id | @item.nameOwner </option>                
+                }
+            </select>
+        </div>
         <input  class="btn btn-primary" type="submit" value="Salvar"/>
     </form>
 </div>

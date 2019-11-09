@@ -1,0 +1,33 @@
+@model Consumer.Domain.Entities.Immobile
+
+<div class="form-horizontal">
+    <div class="form-group">
+        <label>ID</label>
+        <input  class="form-control" type="number" asp-for="id" name="id"/>
+    </div>
+
+    <div class="form-group">
+        <label>Nome do Dono</label>
+        <input  class="form-control" type="text" asp-for="nameOwner" name="nameOwner"/>
+    </div>
+    <div class="form-group">
+        <label>Identificação</label>
+        <input  class="form-control" type="number" asp-for="identification" name="identification"/>
+    </div>
+    <div class="form-group">
+        <label>Cidade</label>
+        <input  class="form-control" type="text" asp-for="city" name="city"/>
+    </div>
+    <div class="form-group">
+        <label>Estado</label>
+        <input  class="form-control" type="text" asp-for="state" name="state"/>
+    </div>
+    <div class="form-group">
+        <label>Bairro</label>
+        <input  class="form-control" type="text" asp-for="neighborhood" name="neighborhood"/>
+    </div>
+    <div class="form-group">
+        <label>Número</label>
+        <input  class="form-control" type="number" asp-for="number" name="number"/>
+    </div>
+</div>

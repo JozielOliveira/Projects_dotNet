@@ -1,7 +1,7 @@
 @model Consumer.Domain.Entities.ViewElectric
-I
+
 </br></br>
-<a href="Electric/Create" class="btn btn-primary">Nova Pessoa</a>
+<a href="Electric/Create" class="btn btn-primary">Nova registro</a>
 </br></br>
 
 <div class="container">
@@ -14,6 +14,7 @@ I
                 <th>Valor a pagar</th>
                 <th>Data de pagamento</th>
                 <th>Média de consumo</th>
+                <th>Residência</th>
                 <th>Ações</th>
             </tr>
         </thead>
@@ -27,6 +28,7 @@ I
                 <td>@item.value</td>
                 <td>@item.datePag</td>
                 <td>@item.mediaConsumed</td>
+                <td>@item.residence.nameOwner</td>
                 <td><a class="btn btn-success" 
                     href="Electric/Details/@item.id">Ver</a>
                     <a class="btn btn-primary" 

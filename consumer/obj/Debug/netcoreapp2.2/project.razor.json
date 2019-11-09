@@ -2976,13 +2976,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Electric copy/Details.cshtml",
+      "TargetPath": "Views/Electric copy/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Home/Privacy.cshtml",
       "TargetPath": "Views/Home/Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Electric copy/Edit.cshtml",
+      "TargetPath": "Views/Electric copy/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Electric/Edit.cshtml",
       "TargetPath": "Views/Electric/Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Electric copy/Index.cshtml",
+      "TargetPath": "Views/Electric copy/Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2993,6 +3008,11 @@
     {
       "FilePath": "Views/Electric/Index.cshtml",
       "TargetPath": "Views/Electric/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Electric copy/Create.cshtml",
+      "TargetPath": "Views/Electric copy/Create.cshtml",
       "FileKind": "mvc"
     },
     {

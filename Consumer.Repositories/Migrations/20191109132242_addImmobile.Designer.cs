@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Consumer.Repositories.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20191018231303_InitialMigrations")]
-    partial class InitialMigrations
+    [Migration("20191109132242_addImmobile")]
+    partial class addImmobile
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,11 +36,42 @@ namespace Consumer.Repositories.Migrations
 
                     b.Property<int>("readNum");
 
+                    b.Property<int?>("residenceid");
+
                     b.Property<double>("value");
 
                     b.HasKey("id");
 
+                    b.HasIndex("residenceid");
+
                     b.ToTable("electrics");
+                });
+
+            modelBuilder.Entity("Consumer.Domain.Entities.Immobile", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<double>("city");
+
+                    b.Property<int>("identification");
+
+                    b.Property<DateTime>("neighborhood");
+
+                    b.Property<DateTime>("number");
+
+                    b.Property<double>("state");
+
+                    b.HasKey("id");
+
+                    b.ToTable("properties");
+                });
+
+            modelBuilder.Entity("Consumer.Domain.Entities.Electric", b =>
+                {
+                    b.HasOne("Consumer.Domain.Entities.Immobile", "residence")
+                        .WithMany("electrics")
+                        .HasForeignKey("residenceid");
                 });
 #pragma warning restore 612, 618
         }

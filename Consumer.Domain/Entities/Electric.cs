@@ -5,7 +5,7 @@ namespace Consumer.Domain.Entities
   public class Electric 
   {
     public Electric() {}
-    public Electric(int id,DateTime readDate, DateTime datePag, int readNum, double kwConsumed, double mediaConsumed, double value)
+    public Electric(int id,DateTime readDate, DateTime datePag, int readNum, double kwConsumed, double mediaConsumed, double value, Immobile residence)
     {
       this.id = id;
       this.readNum = readNum;
@@ -14,6 +14,7 @@ namespace Consumer.Domain.Entities
       this.kwConsumed = kwConsumed;
       this.mediaConsumed = mediaConsumed;
       this.value = value;
+      this.residence = residence;
     }
 
     public int id { get; set; }
@@ -23,5 +24,6 @@ namespace Consumer.Domain.Entities
     public double value { get; set; }
     public DateTime datePag { get; set; }
     public double mediaConsumed { get; set; }
+    public Immobile residence { get; set; }
   }
 }

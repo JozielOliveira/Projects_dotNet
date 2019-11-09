@@ -36,3 +36,7 @@
 /home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/consumer.dll
 /home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/consumer.pdb
 /home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/consumer.csprojAssemblyReference.cache
+/home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/Razor/Views/Immobile/Create.g.cshtml.cs
+/home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/Razor/Views/Immobile/Details.g.cshtml.cs
+/home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/Razor/Views/Immobile/Edit.g.cshtml.cs
+/home/joziel/Documents/Projetos/dotNET/ddd/consumer/obj/Debug/netcoreapp2.2/Razor/Views/Immobile/Index.g.cshtml.cs

@@ -7,6 +7,7 @@ namespace Consumer.Repositories
     {
         public DataContext(DbContextOptions<DataContext> options) :base(options) {}
 
+        public DbSet<Immobile> properties { get; set; }
         public DbSet<Electric> electrics { get; set; }
     }
 }
